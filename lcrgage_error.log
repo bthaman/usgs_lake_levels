@@ -1,0 +1,220 @@
+2021-05-20 11:39:57,030 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+TypeError: 'NoneType' object is not iterable
+2021-10-06 08:06:02,385 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "lcra_gage_selenium.py", line 93, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+  File "selenium\webdriver\remote\webdriver.py", line 978, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"Excel"}
+  (Session info: chrome=94.0.4606.71)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64)
+
+2021-11-30 15:29:30,075 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 95, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 15:43:11,860 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 79, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 70, in __init__
+    super(WebDriver, self).__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 93, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 268, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 359, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 96.0.4664.45 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ABB9D3+2472403]
+	Ordinal0 [0x00A56961+2058593]
+	Ordinal0 [0x009622B8+1057464]
+	Ordinal0 [0x009803FA+1180666]
+	Ordinal0 [0x0097C2E5+1164005]
+	Ordinal0 [0x00979B7F+1153919]
+	Ordinal0 [0x009A997F+1350015]
+	Ordinal0 [0x009A95EA+1349098]
+	Ordinal0 [0x009A545B+1332315]
+	Ordinal0 [0x00981FB4+1187764]
+	Ordinal0 [0x00982E09+1191433]
+	GetHandleVerifier [0x00C43396+1551078]
+	GetHandleVerifier [0x00CED53A+2247818]
+	GetHandleVerifier [0x00B47FBB+521995]
+	GetHandleVerifier [0x00B47079+518089]
+	Ordinal0 [0x00A5BD4D+2080077]
+	Ordinal0 [0x00A5FC18+2096152]
+	Ordinal0 [0x00A5FD52+2096466]
+	Ordinal0 [0x00A694B1+2135217]
+	BaseThreadInitThunk [0x76AC6359+25]
+	RtlGetAppContainerNamedObjectPath [0x770E87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x770E8774+180]
+
+2021-11-30 15:53:21,736 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 95, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:04:48,188 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:06:13,789 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:09:59,653 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:24:27,905 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:30:33,455 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2021-11-30 16:34:40,627 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+AttributeError: 'dict' object has no attribute 'click'
+2022-02-10 12:25:09,426 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\documents\usgs_local\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.18363 x86_64)
+
+2022-02-10 12:25:47,524 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\documents\usgs_local\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.18363 x86_64)
+
+2022-02-10 12:30:09,364 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.18363 x86_64)
+
+2022-02-10 13:24:29,124 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\documents\usgs_local\res.volume.1943.lcragage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\documents\usgs_local\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.18363 x86_64)
+
+2022-02-10 13:27:23,719 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\usgs_local\Res.Volume.1943.LCRAgage.py", line 30, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\usgs_local\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_local\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.18363 x86_64)
+
