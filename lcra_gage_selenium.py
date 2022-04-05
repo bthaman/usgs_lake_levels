@@ -147,7 +147,7 @@ def subplots(x, y, header, count, subplot_num, latest_vals=None, full=None, show
             str_annotation_current = '{:.2f}%\n{:%m/%d/%Y}'.format(current_val, dt_tm2)
         # plt.annotate(str_annotation_start, xy=(x[0], start_val), xytext=(0.15, 0.5), textcoords='axes fraction',
         #              arrowprops=dict(arrowstyle='fancy', facecolor='gray'), bbox=dict(boxstyle="round", fc="w"))
-        plt.annotate(str_annotation_current, xy=(x[-1], current_val), xytext=(0.75, 0.1), textcoords='axes fraction',
+        plt.annotate(str_annotation_current, xy=(x[-1], current_val-0.0), xytext=(0.75, 0.1), textcoords='axes fraction',
                     arrowprops=dict(arrowstyle='fancy', facecolor='lightgray'), rotation=0,
                     bbox=dict(boxstyle="round", fc="w"))
         ax = plt.gca()
