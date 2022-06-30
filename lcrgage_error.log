@@ -313,3 +313,33 @@ Traceback (most recent call last):
   File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
     hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
 OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-06-06 09:52:42,229 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 34, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-06-10 14:15:01,632 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 34, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
