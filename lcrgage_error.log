@@ -343,3 +343,47 @@ Traceback (most recent call last):
   File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
     hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
 OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-06-30 13:20:35,462 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 61, in plot_travis_volume_since_1943
+    df3.to_csv('travis.csv', index=True)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\core\generic.py", line 3170, in to_csv
+    formatter.save()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+PermissionError: [Errno 13] Permission denied: 'travis.csv'
+2022-06-30 13:21:19,065 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 61, in plot_travis_volume_since_1943
+    df3.to_csv('travis.csv', index=True)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\core\generic.py", line 3170, in to_csv
+    formatter.save()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+PermissionError: [Errno 13] Permission denied: 'travis.csv'
+2022-06-30 13:21:47,199 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 61, in plot_travis_volume_since_1943
+    df3.to_csv('travis.csv', index=True)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\core\generic.py", line 3170, in to_csv
+    formatter.save()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+PermissionError: [Errno 13] Permission denied: 'travis.csv'
+2022-06-30 13:22:11,562 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 61, in plot_travis_volume_since_1943
+    df3.to_csv('travis.csv', index=True)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\core\generic.py", line 3170, in to_csv
+    formatter.save()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\formats\csvs.py", line 185, in save
+    f, handles = get_handle(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\pandas\io\common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+PermissionError: [Errno 13] Permission denied: 'travis.csv'
