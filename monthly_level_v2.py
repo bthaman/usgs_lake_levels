@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %%
-df = pd.read_csv('Travis.08154500.SANDBOX.csv')
+df = pd.read_csv('Travis.08154500.1943-2018.csv')
 df['Date'] = pd.to_datetime(df['Date'])
 df= df.set_index('Date')
 df
@@ -23,7 +23,7 @@ dfm.to_csv('resampled_monthly_filled.csv')
 dfm
 
 # %%
-count = (dfm['Level_ft'] < 650.0).sum(axis=0)
+count = (dfm['Level_ft'] < 649.0).sum(axis=0)
 count
 
 # %%
