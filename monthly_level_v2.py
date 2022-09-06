@@ -1,3 +1,4 @@
+
 # %%
 import pandas as pd
 
@@ -23,11 +24,13 @@ dfm.to_csv('resampled_monthly_filled.csv')
 dfm
 
 # %%
-count = (dfm['Level_ft'] < 647.5).sum(axis=0)
+count = (dfm['Level_ft'] < 644.2).sum(axis=0)
 count
 
 # %%
 pct = (count / dfm['Level_ft'].size) * 100
 pct
+
+
 
 # %%
