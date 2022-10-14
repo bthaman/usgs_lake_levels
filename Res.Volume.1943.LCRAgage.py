@@ -3,10 +3,11 @@ chromedriver.exe interfaces with Chrome. The driver must be in the
 same directory as this .py file. 
 It's specific to the Chrome version: get the correct
 driver at https://chromedriver.chromium.org/downloads
-2/10/2022 - Downloaded and installed the driver for Chrome 98
-4/7/2022  - Downloaded and installed the driver for Chrome 100
-6/3/2022  - Downloaded and installed the driver v. 102.0.5005.61 for Chrome 102
-8/7/2022  - Downloaded and installed v. 104
+2/10/2022   - Downloaded and installed the driver for Chrome 98
+4/7/2022    - Downloaded and installed the driver for Chrome 100
+6/3/2022    - Downloaded and installed the driver v. 102.0.5005.61 for Chrome 102
+8/7/2022    - Downloaded and installed v. 104
+10/14/2022  - Downloaded and installed v. 106.0.5249.61
 """
 
 import lcra_gage_selenium as lcra

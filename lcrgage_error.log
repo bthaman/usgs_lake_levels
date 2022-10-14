@@ -555,3 +555,23 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
   (Session info: chrome=104.0.5112.82)
   (Driver info: chromedriver=104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}),platform=Windows NT 10.0.19044 x86_64)
 
+2022-10-14 08:10:17,608 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 35, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 106.0.5249.103 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}),platform=Windows NT 10.0.19044 x86_64)
+
