@@ -575,3 +575,107 @@ selenium.common.exceptions.SessionNotCreatedException: Message: session not crea
 Current browser version is 106.0.5249.103 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
   (Driver info: chromedriver=104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}),platform=Windows NT 10.0.19044 x86_64)
 
+2022-10-14 10:59:00,750 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-10-17 10:28:26,552 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-10-18 07:52:53,179 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\BTHAMAN\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2022-11-28 08:45:47,717 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 96, in import_gage_data
+    excel_button.click()
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+  (Driver info: chromedriver=106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}),platform=Windows NT 10.0.19044 x86_64)
+
+2022-12-08 08:26:49,474 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 106
+Current browser version is 108.0.5359.95 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}),platform=Windows NT 10.0.19044 x86_64)
+
+2022-12-08 08:29:47,491 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 36, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 106
+Current browser version is 108.0.5359.95 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}),platform=Windows NT 10.0.19044 x86_64)
+
