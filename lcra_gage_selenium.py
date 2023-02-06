@@ -163,7 +163,7 @@ def subplots(x, y, header, count, subplot_num, latest_vals=None, full=None, show
             plt.plot(x, full, color='b', linestyle='--', linewidth=1.0)
             if full.min() > 0:
                 plt.fill_between(x, y, full, where=y > full, interpolate=True, facecolor='b', alpha=0.5, label='flood pool')
-                plt.fill_between(x, y, full, where=y < full, interpolate=True, facecolor='powderblue', alpha=0.3)
+                plt.fill_between(x, y, full, where=y < full, interpolate=True, facecolor='aliceblue', alpha=0.75)
                 plt.legend(loc='best', fontsize='x-small')
         plt.grid(b=True, which='both')
         if show_axis_labels:
