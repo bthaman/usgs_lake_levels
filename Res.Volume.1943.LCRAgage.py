@@ -10,6 +10,7 @@ driver at https://chromedriver.chromium.org/downloads
 10/14/2022  - Downloaded and installed v. 106.0.5249.61
 12/8/2022   - Downloaded and installed v. 108.0.5359.71
 2/23/2023   - Downloaded and installed v. 110.0.5481.77
+4/19/2023   - Downloaded and installed v. 112.0.5615.49
 """
 
 import lcra_gage_selenium as lcra
