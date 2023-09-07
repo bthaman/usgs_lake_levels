@@ -213,3 +213,121 @@ selenium.common.exceptions.SessionNotCreatedException: Message: session not crea
 Current browser version is 114.0.5735.90 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
   (Driver info: chromedriver=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}),platform=Windows NT 10.0.19044 x86_64)
 
+2023-06-29 08:41:09,689 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Failed to create Chrome process.
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19044 x86_64)
+
+2023-08-05 07:46:52,121 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19044 x86_64)
+
+2023-08-21 10:40:04,832 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19044 x86_64)
+
+2023-08-22 07:33:28,091 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\res.volume.1943.lcragage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\Documents\usgs_lake_levels\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19044 x86_64)
+
+2023-09-06 19:15:13,387 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.180 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-09-06 19:21:58,176 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 40, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.180 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19045 x86_64)
+
