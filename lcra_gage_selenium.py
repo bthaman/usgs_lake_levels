@@ -4,12 +4,12 @@
  pandas read_table to read it into a dataframe
 """
 
-from lxml import html
 import time
 import os
 import re
 import datetime
 import pandas as pd
+from lxml import html
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import numpy as np

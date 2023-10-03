@@ -18,17 +18,17 @@ dfmr['Level_ft'] = dfmr['Level_ft'].interpolate()
 dfmr.to_csv('monthly_avg_filledna.csv')
 dfmr
 # %%
-count = len(dfmr[dfmr['Level_ft'] < 652.25].index)
+count = len(dfmr[dfmr['Level_ft'] < 628.52].index)
 count
 # %%
-count = (dfmr['Level_ft'] < 652.25).sum(axis=0)
+count = (dfmr['Level_ft'] < 628.52).sum(axis=0)
 count
 # %%
 pct = count / dfmr['Level_ft'].size
 pct
 
 # %%
-count = (s<652.25).sum(axis=0)
+count = (s<628.52).sum(axis=0)
 count
 # %%
 s.size
@@ -38,5 +38,5 @@ pct
 # %%
 import numpy as np
 # %%
-np.percentile(s, .17)
+np.percentile(s, .06)
 # %%
