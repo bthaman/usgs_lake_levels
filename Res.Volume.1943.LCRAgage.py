@@ -14,6 +14,7 @@ or at https://googlechromelabs.github.io/chrome-for-testing/ for newer versions
 4/19/2023   - Downloaded and installed v. 112.0.5615.49
 6/5/2023    - Downloaded and installed v. 114.0.5735.90
 9/7/2023    - Downloaded and installed v. 116.0.5845.180
+10/11/2023  - Downloaded and installed v. 118.0.5993.70
 """
 
 import lcra_gage_selenium as lcra

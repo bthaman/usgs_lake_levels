@@ -331,3 +331,23 @@ selenium.common.exceptions.SessionNotCreatedException: Message: session not crea
 Current browser version is 116.0.5845.180 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
   (Driver info: chromedriver=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}),platform=Windows NT 10.0.19045 x86_64)
 
+2023-10-10 17:02:36,694 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 42, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 116
+Current browser version is 118.0.5993.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+  (Driver info: chromedriver=116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}),platform=Windows NT 10.0.19045 x86_64)
+

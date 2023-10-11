@@ -2555,3 +2555,37 @@
 2023-10-03 13:44:40,382 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
 2023-10-03 13:44:50,177 INFO gage data downloaded: header =Lake Travis Lake Levels
 2023-10-03 13:44:50,208 INFO 1943-02-01 to 2023-10-03
+2023-10-04 10:19:56,376 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-04 10:20:05,975 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-04 10:20:06,016 INFO 1943-02-01 to 2023-10-04
+2023-10-05 08:36:05,439 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-05 08:36:15,238 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-05 08:36:15,273 INFO 1943-02-01 to 2023-10-05
+2023-10-05 14:40:02,249 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-05 14:40:11,037 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-05 14:40:11,069 INFO 1943-02-01 to 2023-10-05
+2023-10-05 14:43:29,650 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-05 14:43:38,396 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-05 14:43:38,427 INFO 1943-02-01 to 2023-10-05
+2023-10-05 16:29:41,647 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-05 16:29:50,376 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-05 16:29:50,408 INFO 1943-02-01 to 2023-10-05
+2023-10-06 08:00:18,185 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-06 08:00:27,228 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-06 08:00:27,263 INFO 1943-02-01 to 2023-10-06
+2023-10-07 09:49:09,035 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-07 09:49:19,145 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-07 09:49:19,181 INFO 1943-02-01 to 2023-10-07
+2023-10-07 14:34:28,884 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-07 14:34:38,079 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-07 14:34:38,118 INFO 1943-02-01 to 2023-10-07
+2023-10-09 08:17:21,337 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-09 08:17:30,339 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-09 08:17:30,374 INFO 1943-02-01 to 2023-10-09
+2023-10-09 17:39:53,181 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-09 17:40:01,800 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-09 17:40:01,835 INFO 1943-02-01 to 2023-10-09
+2023-10-10 08:20:43,055 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
+2023-10-10 08:20:52,588 INFO gage data downloaded: header =Lake Travis Lake Levels
+2023-10-10 08:20:52,622 INFO 1943-02-01 to 2023-10-10
+2023-10-10 17:02:33,459 INFO C:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Travis.08154500.1943-2018.csv read into DataFrame
