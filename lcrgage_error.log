@@ -351,3 +351,303 @@ selenium.common.exceptions.SessionNotCreatedException: Message: session not crea
 Current browser version is 118.0.5993.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
   (Driver info: chromedriver=116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}),platform=Windows NT 10.0.19045 x86_64)
 
+2023-10-11 12:36:45,410 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2023-10-11 19:39:16,181 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2023-10-12 08:24:56,303 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2023-10-12 08:41:51,794 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2023-10-12 09:31:45,097 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+2023-10-20 08:28:59,740 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 80, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-03 08:38:22,824 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-03 08:39:08,451 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-03 08:39:47,646 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-03 08:41:01,479 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-06 08:25:57,521 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-06 08:26:53,555 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-06 09:45:53,072 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-07 07:42:52,303 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 43, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 94, in import_gage_data
+    excel_button = browser.find_element_by_id('Excel')
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: result.webdriverValue.value list is missing or empty in Runtime.callFunctionOn response
+  (Session info: chrome=119.0.6045.105)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64)
+
+2023-11-07 15:41:20,297 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 81, in import_gage_data
+    browser = webdriver.Chrome(chrome_options=options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+OSError: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 84, in import_gage_data
+    logger_debug.info('webdriver failed')
+NameError: name 'logger_debug' is not defined
+2023-11-07 15:42:16,782 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2023-11-07 15:44:12,644 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'

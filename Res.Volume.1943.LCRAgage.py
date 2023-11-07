@@ -4,7 +4,7 @@ same directory as this .py file.
 It's specific to the Chrome version: get the correct
 driver at https://chromedriver.chromium.org/downloads
 or at https://googlechromelabs.github.io/chrome-for-testing/ for newer versions
-2/10/2022   - Downloaded and installed the driver for Chrome 98
+2/10/2022   - Downloaded and installed the driver for Chrome 9830
 4/7/2022    - Downloaded and installed the driver for Chrome 100
 6/3/2022    - Downloaded and installed the driver v. 102.0.5005.61 for Chrome 102
 8/7/2022    - Downloaded and installed v. 104
@@ -15,6 +15,11 @@ or at https://googlechromelabs.github.io/chrome-for-testing/ for newer versions
 6/5/2023    - Downloaded and installed v. 114.0.5735.90
 9/7/2023    - Downloaded and installed v. 116.0.5845.180
 10/11/2023  - Downloaded and installed v. 118.0.5993.70
+11/7/2023   - Downloaded and installed v. 119.0.6045.105
+
+url for manual download:
+https://hydromet.lcra.org/home/GaugeDataList/?siteNumber=3963&siteType=lakelevel
+
 """
 
 import lcra_gage_selenium as lcra

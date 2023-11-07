@@ -77,8 +77,11 @@ def import_gage_data(site_num, full_level=0):
         options = Options()
         options.binary_location = r'C:\Program Files\Google\Chrome\Application\chrome.exe'
         options.add_experimental_option('w3c', False)
-        browser = webdriver.Chrome(chrome_options=options)
-        browser.get(url)
+        try:
+            browser = webdriver.Chrome(chrome_options=options)
+            browser.get(url)
+        except:
+            print('webdriver.Chrome failed')
         action = 'get_excel'
         if action == 'get_data':
             innerHTML = browser.execute_script("return document.body.innerHTML")
@@ -91,11 +94,14 @@ def import_gage_data(site_num, full_level=0):
         else:
             dtnow = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             # print(dtnow)
-            excel_button = browser.find_element_by_id('Excel')
-            time.sleep(3)
-            excel_button.click()
-            time.sleep(3)
-            download_file = get_download_file(dtnow)
+            try:
+                excel_button = browser.find_element_by_id('Excel')
+                time.sleep(3)
+                excel_button.click()
+                time.sleep(3)
+                download_file = get_download_file(dtnow)
+            except:
+                download_file = r'c:\users\bthaman\downloads\MansfieldDam(LakeTravis)_lakelevel.csv'
             print(download_file)
             if download_file:
                 # create df from download file, then delete the file
