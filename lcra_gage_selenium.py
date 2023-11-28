@@ -81,7 +81,7 @@ def import_gage_data(site_num, full_level=0):
             browser = webdriver.Chrome(chrome_options=options)
             browser.get(url)
         except:
-            print('webdriver.Chrome failed')
+            print('\nwebdriver.Chrome failed - switching to manual download\n')
         action = 'get_excel'
         if action == 'get_data':
             innerHTML = browser.execute_script("return document.body.innerHTML")
