@@ -727,3 +727,250 @@ Traceback (most recent call last):
   File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
   File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
 FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2023-12-08 08:10:40,306 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-01-26 07:38:55,758 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-01-26 07:39:14,237 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-02-01 08:07:42,098 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-02-01 08:25:56,810 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-02-02 07:58:31,199 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-03-13 08:21:15,190 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-03-19 09:00:12,886 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-03-19 09:00:26,730 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-03-19 09:00:35,078 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-05-31 15:06:37,460 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 48, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-06-21 08:20:32,775 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 49, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'
+2024-09-06 08:36:01,081 ERROR Error in plot_travis_volume_since_1943
+Traceback (most recent call last):
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\Res.Volume.1943.LCRAgage.py", line 49, in plot_travis_volume_since_1943
+    x, y, full, header, latest_vals = lcra.import_gage_data(site_num='3963', full_level=681.0)
+  File "c:\Users\BTHAMAN\Documents\github\repos\usgs_lake_levels\lcra_gage_selenium.py", line 108, in import_gage_data
+    df = pd.read_csv(download_file)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\Users\BTHAMAN\AppData\Roaming\Python\Python39\site-packages\pandas\io\parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\users\\bthaman\\downloads\\MansfieldDam(LakeTravis)_lakelevel.csv'

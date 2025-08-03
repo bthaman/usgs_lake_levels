@@ -17,7 +17,7 @@ or at https://googlechromelabs.github.io/chrome-for-testing/ for newer versions
 10/11/2023  - Downloaded and installed v. 118.0.5993.70
 11/7/2023   - Downloaded and installed v. 119.0.6045.105
 
-url for manual download:
+url for manual download: *go to url then 'Export to Excel' (Excel icon)
 https://hydromet.lcra.org/home/GaugeDataList/?siteNumber=3963&siteType=lakelevel
 
 """
@@ -27,6 +27,7 @@ import pandas as pd
 import numpy as np
 import logger_handler
 import datetime
+
 import os
 from os.path import join
 
